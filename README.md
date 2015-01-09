@@ -13,7 +13,7 @@ A puppet-lint plugin to check that spaceship operator is called with a tag.
 
 ### Spaceship operator without tag
 
-Calling spaceship operator (<| |>) without tag can be dangerous because it will realise all virtual resources of that type.
+Calling spaceship operator (<| |>) without tag can be dangerous because it will realise all virtual resources of that type (https://tickets.puppetlabs.com/browse/PUP-3825).
 
 #### What you have done
 
@@ -24,7 +24,7 @@ Package <| |>
 #### What you should have done
 
 ```puppet
-Package <| tag != 'virtual' |>
+Package <| virtual == true |>
 ```
 
 #### Disabling the check
