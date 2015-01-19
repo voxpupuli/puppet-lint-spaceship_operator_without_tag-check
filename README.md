@@ -38,5 +38,5 @@ $ puppet-lint --no-spaceship_operator_without_tag_in_case-check path/to/file.pp
 Alternatively, if you’re calling puppet-lint via the Rake task, you should insert the following line to your `Rakefile`.
 
 ```ruby
-PuppetLint.configuration.send('disable_spaceship_operator_without_tag_in_case')
+PuppetLint.configuration.send('disable_spaceship_operator_without_tag')
 ```
