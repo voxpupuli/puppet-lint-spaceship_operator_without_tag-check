@@ -1,9 +1,9 @@
 Gem::Specification.new do |spec|
   spec.name        = 'puppet-lint-spaceship_operator_without_tag-check'
   spec.version     = '0.1.0'
-  spec.homepage    = 'https://github.com/camptocamp/puppet-lint-spaceship_operator_without_tag-check'
+  spec.homepage    = 'https://github.com/puppet-community/puppet-lint-spaceship_operator_without_tag-check'
   spec.license     = 'Apache-2.0'
-  spec.author      = 'Camptocamp'
+  spec.author      = 'Puppet Community'
   spec.email       = 'mickael.canevet@camptocamp.com'
   spec.files       = Dir[
     'README.md',

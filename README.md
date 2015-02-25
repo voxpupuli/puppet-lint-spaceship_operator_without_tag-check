@@ -1,10 +1,11 @@
 puppet-lint-spaceship_operator_without_tag-check
-=================================
+================================================
 
-[![Build Status](https://travis-ci.org/camptocamp/puppet-lint-spaceship_operator_without_tag-check.svg)](https://travis-ci.org/camptocamp/puppet-lint-spaceship_operator_without_tag-check)
-[![Code Climate](https://codeclimate.com/github/camptocamp/puppet-lint-spaceship_operator_without_tag-check/badges/gpa.svg)](https://codeclimate.com/github/camptocamp/puppet-lint-spaceship_operator_without_tag-check)
-[![Gem Version](https://badge.fury.io/rb/puppet-lint-spaceship_operator_without_tag-check.svg)](http://badge.fury.io/rb/puppet-lint-spaceship_operator_without_tag-check)
-[![Coverage Status](https://img.shields.io/coveralls/camptocamp/puppet-lint-spaceship_operator_without_tag-check.svg)](https://coveralls.io/r/camptocamp/puppet-lint-spaceship_operator_without_tag-check?branch=master)
+[![Build Status](https://img.shields.io/travis/puppet-community/puppet-lint-spaceship_operator_without_tag-check.svg)](https://travis-ci.org/puppet-community/puppet-lint-spaceship_operator_without_tag-check)
+[![Gem Version](https://img.shields.io/gem/v/puppet-lint-spaceship_operator_without_tag-check.svg)](https://rubygems.org/gems/puppet-lint-spaceship_operator_without_tag-check)
+[![Gem Downloads](https://img.shields.io/gem/dt/puppet-lint-spaceship_operator_without_tag-check.svg)](https://rubygems.org/gems/puppet-lint-spaceship_operator_without_tag-check)
+[![Coverage Status](https://img.shields.io/coveralls/puppet-community/puppet-lint-spaceship_operator_without_tag-check.svg)](https://coveralls.io/r/puppet-community/puppet-lint-spaceship_operator_without_tag-check?branch=master)
+[![Donated by Camptocamp](https://img.shields.io/badge/donated%20by-camptocamp-fb7047.svg)](#transfer-notice)
 
 A puppet-lint plugin to check that spaceship operator is called with a tag.
 
@@ -40,3 +41,11 @@ Alternatively, if you’re calling puppet-lint via the Rake task, you should ins
 ```ruby
 PuppetLint.configuration.send('disable_spaceship_operator_without_tag')
 ```
+
+## Transfer Notice
+
+This plugin was originally authored by [Camptocamp](http://www.camptocamp.com).
+The maintainer preferred that Puppet Community take ownership of the module for future improvement and maintenance.
+Existing pull requests and issues were transferred over, please fork and continue to contribute here instead of Camptocamp.
+
+Previously: https://github.com/camptocamp/puppet-lint-spaceship_operator_without_tag-check
