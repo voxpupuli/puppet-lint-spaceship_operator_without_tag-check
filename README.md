@@ -9,6 +9,19 @@ puppet-lint-spaceship_operator_without_tag-check
 
 A puppet-lint plugin to check that spaceship operator is called with a tag.
 
+## Installing
+
+### From the command line
+
+```shell
+$ gem install puppet-lint-spaceship_operator_without_tag-check
+```
+
+### In a Gemfile
+
+```ruby
+gem 'puppet-lint-spaceship_operator_without_tag-check', :require => false
+```
 
 ## Checks
 
