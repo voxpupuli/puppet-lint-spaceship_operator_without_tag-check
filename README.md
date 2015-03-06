@@ -43,10 +43,10 @@ Package <| virtual == true |>
 
 #### Disabling the check
 
-To disable this check, you can add `--no-spaceship_operator_without_tag_in_case-check` to your puppet-lint command line.
+To disable this check, you can add `--no-spaceship_operator_without_tag-check` to your puppet-lint command line.
 
 ```shell
-$ puppet-lint --no-spaceship_operator_without_tag_in_case-check path/to/file.pp
+$ puppet-lint --no-spaceship_operator_without_tag-check path/to/file.pp
 ```
 
 Alternatively, if you’re calling puppet-lint via the Rake task, you should insert the following line to your `Rakefile`.
