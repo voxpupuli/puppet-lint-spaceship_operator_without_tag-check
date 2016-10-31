@@ -1,4 +1,5 @@
-/.bundle/
-/vendor/gems/
+*.sw?
+/.bundle
+/vendor
 /Gemfile.lock
-vendor/bundle
+/coverage

@@ -1,4 +1,4 @@
-unless RUBY_VERSION =~ /^1\.8/
+unless RUBY_VERSION =~ /^1\.9/
   require 'coveralls'
   Coveralls.wear!
 end
