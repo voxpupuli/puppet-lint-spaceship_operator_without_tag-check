@@ -33,13 +33,17 @@ Calling spaceship operator (<| |>) without tag can be dangerous because it will 
 #### What you have done
 
 ```puppet
-Package <| |>
+class foo {
+  Package <| |>
+}
 ```
 
 #### What you should have done
 
 ```puppet
-Package <| virtual == true |>
+class foo {
+  Package <| tag == 'foo' |>
+}
 ```
 
 #### Disabling the check
