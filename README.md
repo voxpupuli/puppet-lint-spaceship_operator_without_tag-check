@@ -2,10 +2,10 @@ puppet-lint-spaceship_operator_without_tag-check
 ================================================
 
 [![License](https://img.shields.io/github/license/voxpupuli/puppet-lint-spaceship_operator_without_tag-check.svg)](https://github.com/voxpupuli/puppet-lint-spaceship_operator_without_tag-check/blob/master/LICENSE)
-[![Test](https://github.com/voxpupuli/puppet-lint-param-docs/actions/workflows/test.yml/badge.svg)](https://github.com/voxpupuli/puppet-lint-param-docs/actions/workflows/test.yml)
-[![Release](https://github.com/voxpupuli/puppet-lint-param-docs/actions/workflows/release.yml/badge.svg)](https://github.com/voxpupuli/puppet-lint-param-docs/actions/workflows/release.yml)
-[![RubyGem Version](https://img.shields.io/gem/v/puppet-lint-param-docs.svg)](https://rubygems.org/gems/puppet-lint-param-docs)
-[![RubyGem Downloads](https://img.shields.io/gem/dt/puppet-lint-param-docs.svg)](https://rubygems.org/gems/puppet-lint-param-docs)
+[![Test](https://github.com/voxpupuli/puppet-lint-spaceship_operator_without_tag-check/actions/workflows/test.yml/badge.svg)](https://github.com/voxpupuli/puppet-lint-spaceship_operator_without_tag-check/actions/workflows/test.yml)
+[![Release](https://github.com/voxpupuli/puppet-lint-spaceship_operator_without_tag-check/actions/workflows/release.yml/badge.svg)](https://github.com/voxpupuli/puppet-lint-spaceship_operator_without_tag-check/actions/workflows/release.yml)
+[![RubyGem Version](https://img.shields.io/gem/v/puppet-lint-spaceship_operator_without_tag-check.svg)](https://rubygems.org/gems/puppet-lint-spaceship_operator_without_tag-check)
+[![RubyGem Downloads](https://img.shields.io/gem/dt/puppet-lint-spaceship_operator_without_tag-check.svg)](https://rubygems.org/gems/puppet-lint-spaceship_operator_without_tag-check)
 [![Donated by Camptocamp](https://img.shields.io/badge/donated%20by-camptocamp-fb7047.svg)](#transfer-notice)
 
 A puppet-lint plugin to check that spaceship operator is called with a tag.
