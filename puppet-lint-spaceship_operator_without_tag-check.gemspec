@@ -1,10 +1,10 @@
 Gem::Specification.new do |spec|
   spec.name        = 'puppet-lint-spaceship_operator_without_tag-check'
   spec.version     = '0.1.1'
-  spec.homepage    = 'https://github.com/puppet-community/puppet-lint-spaceship_operator_without_tag-check'
+  spec.homepage    = 'https://github.com/voxupuli/puppet-lint-spaceship_operator_without_tag-check'
   spec.license     = 'Apache-2.0'
-  spec.author      = 'Puppet Community'
-  spec.email       = 'mickael.canevet@camptocamp.com'
+  spec.author      = 'Vox Pupuli'
+  spec.email       = 'voxpupuli@groups.io'
   spec.files       = Dir[
     'README.md',
     'LICENSE',
@@ -21,8 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rspec-its', '~> 1.0'
   spec.add_development_dependency 'rspec-collection_matchers', '~> 1.0'
-  spec.add_development_dependency 'mime-types', '~> 1.0' # 2.x dropped Ruby 1.8 support
-  spec.add_development_dependency 'coveralls' if RUBY_VERSION >= '2.0.0'
   spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'json_pure', '<= 2.0.1' if RUBY_VERSION < '2.0.0'
+  spec.add_development_dependency 'simplecov'
 end
