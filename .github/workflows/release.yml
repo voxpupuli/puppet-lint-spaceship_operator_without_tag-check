@@ -1,23 +1,25 @@
 name: Release
 
 on:
-  create:
-    ref_type: tag
+  push:
+    tags:
+      - '*'
 
 jobs:
   release:
     runs-on: ubuntu-latest
-    if: github.repository == 'voxpupuli/puppet-lint-spaceship_operator_without_tag-check'
+    if: github.repository_owner == 'voxpupuli'
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Install Ruby 3.0
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0'
+          bundler: 'none'
         env:
-          BUNDLE_WITHOUT: release
+          BUNDLE_WITHOUT: release:development:rubocop
       - name: Build gem
-        run: gem build *.gemspec
+        run: gem build --strict --verbose *.gemspec
       - name: Publish gem to rubygems.org
         run: gem push *.gem
         env:
@@ -28,4 +30,4 @@ jobs:
           echo ":github: Bearer ${{ secrets.GITHUB_TOKEN }}" >> ~/.gem/credentials
           chmod 0600 ~/.gem/credentials
       - name: Publish gem to GitHub packages
-        run: gem push --key github --host https://rubygems.pkg.github.com/voxpupuli *.gem
+        run: gem push --key github --host https://rubygems.pkg.github.com/${{ github.repository_owner }} *.gem
