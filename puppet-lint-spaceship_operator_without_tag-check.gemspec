@@ -17,9 +17,9 @@ Gem::Specification.new do |spec|
   EOF
 
   spec.add_dependency             'puppet-lint', '>= 1.0', '< 3.0'
-  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rspec-collection_matchers', '~> 1.0'
   spec.add_development_dependency 'rspec-its', '~> 1.0'
-  spec.add_development_dependency 'simplecov'
+  spec.add_development_dependency 'simplecov', '~> 0.22.0'
 end
