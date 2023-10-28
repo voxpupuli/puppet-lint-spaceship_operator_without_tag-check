@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec|
   spec.name        = 'puppet-lint-spaceship_operator_without_tag-check'
   spec.version     = '1.0.1'
-  spec.homepage    = 'https://github.com/voxupuli/puppet-lint-spaceship_operator_without_tag-check'
+  spec.homepage    = 'https://github.com/voxpupuli/puppet-lint-spaceship_operator_without_tag-check'
   spec.license     = 'Apache-2.0'
   spec.author      = 'Vox Pupuli'
   spec.email       = 'voxpupuli@groups.io'
