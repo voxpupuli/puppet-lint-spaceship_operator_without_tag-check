@@ -2,9 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2.0.0](https://github.com/voxpupuli/puppet-lint-spaceship_operator_without_tag-check/tree/2.0.0) (2025-12-19)
+## [2.1.0](https://github.com/voxpupuli/puppet-lint-spaceship_operator_without_tag-check/tree/2.1.0) (2026-10-16)
 
-[Full Changelog](https://github.com/voxpupuli/puppet-lint-spaceship_operator_without_tag-check/compare/v1.0.1...2.0.0)
+[Full Changelog](https://github.com/voxpupuli/puppet-lint-spaceship_operator_without_tag-check/compare/v2.0.0...2.1.0)
+
+**Implemented enhancements:**
+
+- Add Ruby 4 support [\#25](https://github.com/voxpupuli/puppet-lint-spaceship_operator_without_tag-check/pull/25) ([bastelfreak](https://github.com/bastelfreak))
+
+## [v2.0.0](https://github.com/voxpupuli/puppet-lint-spaceship_operator_without_tag-check/tree/v2.0.0) (2025-12-19)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-lint-spaceship_operator_without_tag-check/compare/v1.0.1...v2.0.0)
 
 **Breaking changes:**
 
