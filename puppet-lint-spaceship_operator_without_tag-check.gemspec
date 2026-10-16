@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
     A puppet-lint plugin to check that spaceship operator is called with a tag.
   EOF
 
-  spec.required_ruby_version = '>= 3.2', '< 4'
+  spec.required_ruby_version = '>= 3.2'
 
   spec.add_dependency             'puppet-lint', '>= 1.0', '< 6.0'
   spec.add_development_dependency 'rake', '~> 13.0'
